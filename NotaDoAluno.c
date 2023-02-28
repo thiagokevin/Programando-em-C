@@ -2,7 +2,7 @@
 
 main()
 {
-    float notas[10],media = 0;
+    float notas[10], media = 0;
     int i;
     for(i=0;i<10;i++)
     {
@@ -13,7 +13,7 @@ main()
     }
     media /= 10;
     printf("\nNotas dos Alunos\n");
-    for(i=o;i<10;i++)
+    for(i=0;i<10;i++)
     {
         printf("\nAlunos %2d - Nota = %5.2f",(i+1));
         printf("\nMedia total dos alunos:-> %.2f",media);
